@@ -6,7 +6,7 @@
   <link href="http://peifengcoding.com/atom.xml" rel="self"/>
   
   <link href="http://peifengcoding.com/"/>
-  <updated>2025-07-16T15:59:11.497Z</updated>
+  <updated>2025-07-16T15:18:06.983Z</updated>
   <id>http://peifengcoding.com/</id>
   
   <author>
@@ -15,38 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>GameFramework框架学习</title>
-    <link href="http://peifengcoding.com/posts/93c88b6.html"/>
-    <id>http://peifengcoding.com/posts/93c88b6.html</id>
-    <published>2025-07-16T15:19:16.000Z</published>
-    <updated>2025-07-16T15:59:11.497Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="GameFramework学习-一"><a href="#GameFramework学习-一" class="headerlink" title="GameFramework学习(一)"></a>GameFramework学习(一)</h1><h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>在我大三的时候，我第一次接触到游戏开发。通过参加几次GameJam，我对游戏开发产生了浓厚的兴趣，并迅速开始了我的实习生涯。我有幸在一家专注于二次元手游开发的公司工作了9个月。在这段时间里我真正地接触到了实际投入商业使用的游戏框架，可以说对它的框架使用已经非常熟悉，但这并不能说我真正的搞懂了框架。之前在看过公司的框架之后在网上东拼西凑自己搞了个小框架用在自己参与的独游项目上，沾沾自喜以为自己学会了框架，结果却弄得满地鸡毛。<br>所以框架到底是什么，这里我直接摘抄网络上的定义:<br><strong>框架‌是为特定领域或问题提供基础结构、规范与可扩展性的软件或理论体系，包含预定义的设计模式、类库和工具，允许开发者通过填充具体逻辑实现定制功能。</strong><br>在我看来，框架应当在它所在的领域足够泛用，它应当是该领域所有地方需要用到工具的交集。那么对于一个游戏框架，它就应当只包含任何类型游戏开发都共同需要使用到的工具，比如UI模块，资源管理模块等等。<br>而在社区里，有这么几款游戏框架总是被广泛讨论，它们因为其高度的规范性、健壮性和可拓展性被大家使用，甚至被投入到商业开发中，比如ET、GameFramework。<br>我在刚学习游戏框架的时候就听说了GameFramework的大名，工作中遇到的框架在设计上也总是能见到GameFramework的影子，但是因为之前工作过于烦忙，还要准备校招，实在没有一个好机会能够静下心来好好地去拜读GameFramework的源码。而这次，因为校招进入一家新公司，我们有为期数月的培训，而其中一个任务便是阅读GameFramework源码。这是一次绝佳的机会，让我能够去做我之前想做但是却没时间做的事。</p><h3 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h3>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;&#92;assets&#92;css&#92;APlayer.min.css&quot;&gt;&lt;script src=&quot;&#92;assets&#92;js&#92;APlayer.min.js&quot; cla</summary>
-      
-    
-    
-    
-    <category term="Unity" scheme="http://peifengcoding.com/categories/Unity/"/>
-    
-    <category term="框架学习" scheme="http://peifengcoding.com/categories/Unity/%E6%A1%86%E6%9E%B6%E5%AD%A6%E4%B9%A0/"/>
-    
-    <category term="GameFramework" scheme="http://peifengcoding.com/categories/Unity/%E6%A1%86%E6%9E%B6%E5%AD%A6%E4%B9%A0/GameFramework/"/>
-    
-    
-    <category term="Unity" scheme="http://peifengcoding.com/tags/Unity/"/>
-    
-    <category term="C#" scheme="http://peifengcoding.com/tags/C/"/>
-    
-    <category term="GameFramework" scheme="http://peifengcoding.com/tags/GameFramework/"/>
-    
-  </entry>
   
   <entry>
     <title>GameFrameWork学习笔记</title>
