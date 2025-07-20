@@ -7,7 +7,7 @@ http://peifengcoding.com/
 http://peifengcoding.com/tags/Unity/
 http://peifengcoding.com/tags/C/
 http://peifengcoding.com/tags/GameFramework/
-http://peifengcoding.com/categories/%E6%B5%8B%E8%AF%95/
 http://peifengcoding.com/categories/Unity/
 http://peifengcoding.com/categories/Unity/%E6%A1%86%E6%9E%B6%E5%AD%A6%E4%B9%A0/
 http://peifengcoding.com/categories/Unity/%E6%A1%86%E6%9E%B6%E5%AD%A6%E4%B9%A0/GameFramework/
+http://peifengcoding.com/categories/%E6%B5%8B%E8%AF%95/
