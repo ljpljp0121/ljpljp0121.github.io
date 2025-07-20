@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>培风的博客</title>
-  <icon>https://www.gravatar.com/avatar/93d40c65006b14d074cb8a4f44e7520c</icon>
+  
   <subtitle>风之积也不厚，则其负大翼也无力。</subtitle>
   <link href="http://peifengcoding.com/atom.xml" rel="self"/>
   
@@ -11,7 +11,7 @@
   
   <author>
     <name>培风</name>
-    <email>2540297235@qq.com</email>
+    
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
