@@ -86,6 +86,13 @@
   </url>
   
   <url>
+    <loc>http://peifengcoding.com/categories/%E6%B5%8B%E8%AF%95/</loc>
+    <lastmod>2025-07-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>http://peifengcoding.com/categories/Unity/%E6%A1%86%E6%9E%B6%E5%AD%A6%E4%B9%A0/</loc>
     <lastmod>2025-07-20</lastmod>
     <changefreq>weekly</changefreq>
@@ -94,13 +101,6 @@
   
   <url>
     <loc>http://peifengcoding.com/categories/Unity/%E6%A1%86%E6%9E%B6%E5%AD%A6%E4%B9%A0/GameFramework/</loc>
-    <lastmod>2025-07-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://peifengcoding.com/categories/%E6%B5%8B%E8%AF%95/</loc>
     <lastmod>2025-07-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

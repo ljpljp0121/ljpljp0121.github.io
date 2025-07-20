@@ -368,3 +368,79 @@ div#category {
 #article-container figure.highlight {
   border-radius: 10px;
 }
+
+/* 自定义Footer样式 */
+.footer-custom {
+  text-align: center;
+  margin: 20px 0;
+  padding: 20px 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer-motto {
+  font-size: 1.1em;
+  font-style: italic;
+  color: #f2b94b;
+  margin-bottom: 15px;
+  font-family: "ZhuZiAYuanJWD", serif;
+}
+
+.footer-info {
+  margin: 15px 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.footer-info span {
+  color: #999;
+  font-size: 0.9em;
+}
+
+.footer-info i {
+  margin-right: 5px;
+  color: #f2b94b;
+}
+
+.footer-social {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.footer-social a {
+  color: #999;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.footer-social a:hover {
+  color: #f2b94b;
+  background: rgba(242, 185, 75, 0.1);
+  transform: translateY(-2px);
+}
+
+.footer-social i {
+  margin-right: 5px;
+}
+
+/* 移动端适配 */
+@media (max-width: 768px) {
+  .footer-info {
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .footer-social {
+    gap: 10px;
+  }
+  
+  .footer-motto {
+    font-size: 1em;
+  }
+}
