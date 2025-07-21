@@ -411,7 +411,7 @@ div#category {
   flex-wrap: wrap;
 }
 
-.footer-social a {
+.footer-social a, .footer-social span {
   color: #999;
   text-decoration: none;
   transition: all 0.3s ease;
@@ -443,4 +443,207 @@ div#category {
   .footer-motto {
     font-size: 1em;
   }
+}
+
+/* 卡片式现代风格 - 明亮背景适配 */
+
+/* Footer半透明无缝设计 */
+.footer-custom {
+  background: rgba(255, 255, 255, 0.75) !important;
+  border-radius: 0;
+  box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.1);
+  border: none;
+  margin: 0;
+  padding: 30px;
+}
+
+.footer-motto {
+  color: #2c3e50 !important;
+  font-weight: 600;
+  font-size: 1.1em;
+}
+
+.footer-info span {
+  color: #5a6c7d !important;
+  font-weight: 400;
+}
+
+.footer-social a, .footer-social span {
+  color: #5a6c7d !important;
+  font-weight: 400;
+}
+
+.footer-social a:hover {
+  color: #3498db !important;
+  background: rgba(52, 152, 219, 0.1) !important;
+  transform: translateY(-2px);
+}
+
+/* 导航栏半透明设计 */
+#nav {
+  background: rgba(255, 255, 255, 0.75) !important;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+  border: none;
+}
+
+/* 导航栏菜单项 */
+#nav .menus_items .menus_item a {
+  color: #2c3e50 !important;
+  background: transparent !important;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  margin: 0 4px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+#nav .menus_items .menus_item a:hover {
+  background: rgba(52, 152, 219, 0.1) !important;
+  color: #3498db !important;
+  transform: translateY(-1px);
+}
+
+/* 网站标题 */
+#site-title {
+  color: #2c3e50 !important;
+  font-weight: 700;
+  text-shadow: none;
+}
+
+/* 副标题 */
+#site_sub_title {
+  color: #7f8c8d !important;
+  font-weight: 400;
+  text-shadow: none;
+}
+
+/* 右侧按钮卡片式 */
+#rightside > div > button {
+  background: #ffffff !important;
+  color: #5a6c7d !important;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+#rightside > div > button:hover {
+  background: #3498db !important;
+  color: #ffffff !important;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(52, 152, 219, 0.3);
+}
+
+/* 主要内容区域卡片 */
+#recent-posts > .recent-post-item {
+  background: #ffffff !important;
+  border-radius: 15px;
+  box-shadow: 0 6px 30px rgba(0, 0, 0, 0.08);
+  border: none;
+  transition: all 0.3s ease;
+  margin-bottom: 25px;
+}
+
+#recent-posts > .recent-post-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15);
+}
+
+/* 侧边栏卡片 */
+#aside-content .card-widget {
+  background: #ffffff !important;
+  border-radius: 15px;
+  box-shadow: 0 6px 30px rgba(0, 0, 0, 0.08);
+  border: none;
+  margin-bottom: 25px;
+}
+
+/* 文章页面卡片 */
+div#post {
+  background: #ffffff !important;
+  border-radius: 15px;
+  box-shadow: 0 6px 30px rgba(0, 0, 0, 0.08);
+  border: none;
+}
+
+/* 其他页面卡片 */
+div#page, div#archive, div#tag, div#category {
+  background: #ffffff !important;
+  border-radius: 15px;
+  box-shadow: 0 6px 30px rgba(0, 0, 0, 0.08);
+  border: none;
+}
+
+/* 深色文字确保可读性 */
+.recent-post-item .recent-post-info .article-title,
+.card-widget-title,
+#article-container h1, #article-container h2, #article-container h3,
+#article-container p,
+.card-content {
+  color: #2c3e50 !important;
+  text-shadow: none;
+}
+
+/* 文章摘要文字 */
+.recent-post-item .recent-post-info .content {
+  color: #5a6c7d !important;
+}
+
+/* 卡片标题 */
+.card-widget .card-widget-title {
+  color: #2c3e50 !important;
+  font-weight: 600;
+}
+
+/* 链接颜色 */
+a {
+  color: #3498db !important;
+}
+
+a:hover {
+  color: #2980b9 !important;
+}
+
+/* Footer完全无缝贴边设计 */
+#footer {
+  background: transparent !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  width: 100vw !important;
+  margin-left: calc(50% - 50vw) !important;
+}
+
+#footer-wrap {
+  padding: 40px 0 !important; /* 移除左右padding，保留上下padding */
+  margin: 0 !important;
+  width: 100% !important;
+}
+
+/* Footer半透明设计 */
+.footer-custom {
+  background: rgba(255, 255, 255, 0.75) !important;
+  border-radius: 0;
+  box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.1);
+  border: none;
+  margin: 0;
+  margin-bottom: 0 !important;
+  padding: 30px 20px; /* 在自定义内容区域保留左右内边距 */
+  padding-bottom: 30px !important;
+}
+
+/* 确保页面底部完全无间隙 */
+html, body {
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+#body-wrap {
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+#footer-wrap {
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
 }
